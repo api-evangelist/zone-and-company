@@ -1,8 +1,26 @@
 aid: zone-and-company
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zone-and-company.png
 name: Zone & Company
-description: Zone & Company is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Zone & Co (Zone & Company) is a NetSuite-native financial operations software vendor whose
+  SuiteApp suite automates the back office across five product families - Quote to Cash
+  (ZoneBilling billing and revenue recognition, ZonePayments Stripe integration), Procure to Pay
+  (ZoneProcure, ZoneCapture, ZoneApprovals), Treasury (ZoneLiquidity cash forecasting,
+  ZoneReconcile), Payroll Management (ZonePayroll, Employee Portal), and Record to Report
+  (ZoneReporting on Power BI, Data Warehouse, ZoneExtract, Solution 7). The products are delivered
+  as native Oracle NetSuite SuiteApps distributed through the SuiteApp Marketplace rather than as a
+  standalone public developer API. Backed by Insight Partners.
 url: https://raw.githubusercontent.com/api-evangelist/zone-and-company/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +30,19 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Financial Operations
+- NetSuite
+- Billing
+- Revenue Recognition
+- Payroll
+- Procurement
+- Treasury
+- ERP
+- SaaS
+- Automation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +52,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.zoneandco.com/
+- type: Blog
+  url: https://www.zoneandco.com/resources
+- type: Support
+  url: https://www.zoneandco.com/support-hub
+- type: SignUp
+  url: https://www.zoneandco.com/request-demo
+- type: PrivacyPolicy
+  url: https://www.zoneandco.com/privacy-policy
+- type: TermsOfService
+  url: https://www.zoneandco.com/legal
+- type: TrustCenter
+  url: security/zone-and-company-trust-center.yml
+- type: Compliance
+  url: https://trust.zoneandco.com/
+- type: DomainSecurity
+  url: security/zone-and-company-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
