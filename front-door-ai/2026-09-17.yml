@@ -1,0 +1,29 @@
+# Front Door AI Index — zone-and-company — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: zone-and-company
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.zoneandco.com
+  final_host: www.zoneandco.com
+  ownership: own
+  owner: zone-and-company
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 14
+  host_score: 14
+  density: 8.32
+  words: 1682
+  tiers:
+    agentic: 2
+    core: 12
+    model: 0
+  ambiguous: 16
+  top_terms:
+    AI: 12
+    agent: 9
+    automation: 4
+    intelligence: 3
+    AI agent: 2
